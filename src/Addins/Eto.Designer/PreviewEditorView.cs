@@ -220,7 +220,7 @@ namespace Eto.Designer
 
 			designPanel.ContainerChanged = () => designPanelHolder.Content = designPanel.GetContainer();
 
-			Orientation = Orientation.Vertical;
+			Orientation = Orientation.Horizontal;
 			FixedPanel = SplitterFixedPanel.None;
 
 			errorPanel = new Panel { Padding = new Padding(5), Visible = false, BackgroundColor = new Color(Colors.Red, .4f) };
